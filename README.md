@@ -20,7 +20,7 @@ This is a repository that I had practiced Instagram Crowling for sentiment analy
 + Pandas
 + Keras 
 + Konlpy
-+ Tf-IDF
++ Tf-IDF (to use cosine similarity)
 
 ### Data
 + AI Hub Data
