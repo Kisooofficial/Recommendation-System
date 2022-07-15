@@ -11,7 +11,7 @@ This is a repository that I had practiced Instagram Crowling for sentiment analy
 
 # What I used?
 ## Programming Language
-+ Python
++ Python Jupyter Notebook
 
 ## Library
 + Selenium
