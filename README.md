@@ -20,11 +20,22 @@ This is a repository that I had practiced Instagram Crowling for sentiment analy
 + Pandas
 + Keras 
 + Konlpy
-+ Tf-IDF (to use cosine similarity)
++ Tf-IDF 
 
 ### Data
 + AI Hub Data
 + Melon Song Information Data
 
 ## Modeling
-+ LSTM 
+|Model Name|Accuracy|
+|---|---|
+|Logistic Regression|17.36%|
+|Random Forest|17.69%|
+|LightGBM|18.04%|
+|LSTM|68.05%|
+
+## How to Recommend?
+Since the accuracy was not high enough, cosine similarity was used to make a better recommendation.
+First, sentiments are predicted using a model learned from the user's SNS posts and collected songs.
+Second, extract only the same of the predicted emotions from SNS and songs.
+Third, compare the extracted cosine similarity and recommend the top 5 songs with the highest similarity.
