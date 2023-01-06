@@ -25,3 +25,6 @@ This is a repository that I had practiced Instagram Crowling for sentiment analy
 ### Data
 + AI Hub Data
 + Melon Song Information Data
+
+## Modeling
++ LSTM 
