@@ -36,6 +36,6 @@ This is a repository that I had practiced Instagram Crowling for sentiment analy
 
 ## How to Recommend?
 Since the accuracy was not high enough, cosine similarity was used to make a better recommendation.
-First, sentiments are predicted using a model learned from the user's SNS posts and collected songs.
-Second, extract only the same of the predicted emotions from SNS and songs.
-Third, compare the extracted cosine similarity and recommend the top 5 songs with the highest similarity.
++ sentiments are predicted using a model learned from the user's SNS posts and collected songs.
++ extract only the same of the predicted emotions from SNS and songs.
++ compare the extracted cosine similarity and recommend the top 5 songs with the highest similarity.
